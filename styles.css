@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+
+
+body{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+input{
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: transparent;
+    outline: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: white;
+    border-bottom: 1px solid grey;
+
+}
+
+::placeholder{
+    color: white;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.form{
+    background-image: url(/1951962.png);
+    background-size: 100%;
+    height: 625px;
+    text-align: center;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-top: 14px;
+}
+
+.background{
+    text-align: center;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));
+    height: 600px;
+ }
+
+.header{
+    color: white;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.header h1{
+    padding-bottom: 10px;
+}
+
+.name{
+    display: flex;
+    gap: 20%;
+}
+
+.password{
+    display: flex;
+    gap: 20%;
+}
+
+.ep{
+    display: flex;
+    gap: 20%;
+}
+
+.da{
+    display: flex;
+    gap: 20%;
+}
+
+.male-female{
+    display: flex;
+    gap: 8%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 10%;
+}
+
+.Address{
+    display: flex;
+    gap: 20%;
+}
+
+.cn{
+    display: flex;
+    gap: 20%;
+}
+
+.name .name1 input{
+    font-size:large;
+    height: 40px;
+    width: 150%;
+    padding-left: 5%
+
+}
+
+.name .name1{
+    padding-left: 8%;
+    padding-bottom: 2%;
+}
+
+
+.name .name2 input{
+    font-size:large;
+    height: 40px;
+    width: 150%;
+    padding-left: 5%
+
+}
+
+.name .name2{
+    padding-left: 2%;
+    padding-bottom: 2%;
+}
+
+.password .pass1 input{
+    font-size:large;
+    height: 40px;
+    width: 150%;
+    padding-left: 5%
+
+}
+
+.password .pass1{
+    padding-left: 8%;
+    padding-bottom: 2%;
+
+}
+
+
+.password .pass2 input{
+    font-size:large;
+    height: 40px;
+    width: 150%;
+    padding-left: 5%
+    
+}
+
+.password .pass2{
+    padding-left: 2%;
+    padding-bottom: 2%;
+
+}
+
+.ep .email input{
+    font-size:large;
+    height: 40px;
+    width: 150%;
+    padding-left: 5%
+}
+
+.ep .email{
+    padding-left: 8%;
+    padding-bottom: 2%;
+}
+
+.ep .phno input{
+    font-size:large;
+    height: 40px;
+    width: 150%;
+    padding-left: 5%
+}
+
+.ep .phno{
+    padding-left: 2%;
+    padding-bottom: 2%;
+}
+
+.da .DOB input{
+    font-size:large;
+    height: 40px;
+    width: 175%;
+    padding-left: 5%
+}
+
+.da .DOB{
+    padding-left: 8%;
+    padding-bottom: 2%;
+}
+
+.da .age input{
+    font-size:large;
+    height: 40px;
+    width: 150%;
+    padding-left: 5%
+}
+
+.da .age{
+    padding-left: 5%;
+    padding-bottom: 2%;
+}
+
+
+.male-female .m1{
+    display: flex;
+    gap: 20px;
+   
+}
+
+.male-female .f1{
+    display: flex;
+    gap: 20px;
+    
+}
+
+.male-female .m1 .m{
+    color: white;
+    font-size: large;
+}
+
+.male-female .f1 .f{
+    color: white;
+    font-size: large;
+}
+
+.Address .add input{
+    font-size:large;
+    height: 40px;
+    width: 150%;
+    padding-left: 5%
+}
+
+.Address .add{
+    padding-left: 8%;
+    padding-bottom: 2%;
+}
+
+.Address .pin input{
+    font-size:large;
+    height: 40px;
+    width: 150%;
+    padding-left: 5%
+}
+
+.Address .pin{
+    padding-left: 2%;
+    padding-bottom: 2%;
+}
+
+.cn .city input{
+    font-size:large;
+    height: 40px;
+    width: 150%;
+    padding-left: 5%
+}
+
+.cn .city{
+    padding-left: 8%;
+    padding-bottom: 2%;
+}
+
+.cn .country input{
+    font-size:large;
+    height: 40px;
+    width: 150%;
+    padding-left: 5%
+}
+
+.cn .country{
+    padding-left: 2%;
+    padding-bottom: 2%;
+}
+
+.submit input{
+    font-size:x-large;
+    border: 1px solid white;
+    height: 50px;
+    width: 20%;
+    padding-top: 2px ;
+    border-radius: 80px;
+}
+
+.submit{
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.submit input:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.log{
+    color: white;
+    padding-top: 20px;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
+    height: 50px;
+    width: 100%;
+}
+
+.log a{
+    text-decoration: none;
+    color: rgb(133, 127, 127);
+}
