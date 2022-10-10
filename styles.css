@@ -12,13 +12,13 @@ input{
     border-top: none;
     border-left: none;
     border-right: none;
-    color: white;
-    border-bottom: 1px solid grey;
+    color: rgb(136, 135, 135);
+    border-bottom: 1px solid rgb(51, 51, 51);
 
 }
 
 ::placeholder{
-    color: white;
+    color: rgb(136, 135, 135);
 }
 
 *{
@@ -39,7 +39,7 @@ input{
 
 .background{
     text-align: center;
-    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));
+    background: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0.4));
     height: 600px;
  }
 
@@ -78,7 +78,7 @@ input{
     gap: 8%;
     padding-top: 2%;
     padding-bottom: 2%;
-    padding-left: 10%;
+    padding-left: 8%;
 }
 
 .Address{
@@ -91,17 +91,27 @@ input{
     gap: 20%;
 }
 
+
+
 .name .name1 input{
     font-size:large;
     height: 40px;
     width: 150%;
-    padding-left: 5%
+    padding-left: 3%
 
 }
 
 .name .name1{
-    padding-left: 8%;
+    padding-left: 4%;
     padding-bottom: 2%;
+    display: flex;
+}
+
+.icon-n1 i{
+    color: rgb(228, 222, 222);
+    padding-top: 11px;
+    padding-right: 10px;
+    font-weight: lighter;
 }
 
 
@@ -109,26 +119,28 @@ input{
     font-size:large;
     height: 40px;
     width: 150%;
-    padding-left: 5%
+    padding-left: 3%
 
 }
 
 .name .name2{
     padding-left: 2%;
     padding-bottom: 2%;
+    display: flex;
 }
 
 .password .pass1 input{
     font-size:large;
     height: 40px;
     width: 150%;
-    padding-left: 5%
+    padding-left: 4%
 
 }
 
 .password .pass1{
-    padding-left: 8%;
+    padding-left: 32px;
     padding-bottom: 2%;
+    display: flex;
 
 }
 
@@ -142,9 +154,18 @@ input{
 }
 
 .password .pass2{
-    padding-left: 2%;
+    padding-left: 19px;
     padding-bottom: 2%;
+    display: flex;
 
+}
+
+.icon-n2 i{
+    color: rgb(228, 222, 222);
+    padding-top: 11px;
+    padding-right: 7px;
+    font-weight: lighter;
+    /* transform: translateX(-2px); */
 }
 
 .ep .email input{
@@ -155,8 +176,9 @@ input{
 }
 
 .ep .email{
-    padding-left: 8%;
+    padding-left: 4%;
     padding-bottom: 2%;
+    display: flex;
 }
 
 .ep .phno input{
@@ -167,8 +189,9 @@ input{
 }
 
 .ep .phno{
-    padding-left: 2%;
+    padding-left: 16px;
     padding-bottom: 2%;
+    display: flex;
 }
 
 .da .DOB input{
@@ -179,8 +202,17 @@ input{
 }
 
 .da .DOB{
-    padding-left: 8%;
+    padding-left: 23px;
     padding-bottom: 2%;
+    display: flex;
+}
+
+.date1{
+    color: rgb(228, 222, 222);
+    padding-top: 15px;
+    padding-right: 7px;
+    font-size: x-small;
+    font-weight: 800;
 }
 
 .da .age input{
@@ -191,32 +223,11 @@ input{
 }
 
 .da .age{
-    padding-left: 5%;
+    padding-left: 41px;
     padding-bottom: 2%;
-}
-
-
-.male-female .m1{
     display: flex;
-    gap: 20px;
-   
 }
 
-.male-female .f1{
-    display: flex;
-    gap: 20px;
-    
-}
-
-.male-female .m1 .m{
-    color: white;
-    font-size: large;
-}
-
-.male-female .f1 .f{
-    color: white;
-    font-size: large;
-}
 
 .Address .add input{
     font-size:large;
@@ -226,8 +237,9 @@ input{
 }
 
 .Address .add{
-    padding-left: 8%;
+    padding-left: 25px;
     padding-bottom: 2%;
+    display: flex;
 }
 
 .Address .pin input{
@@ -238,8 +250,18 @@ input{
 }
 
 .Address .pin{
-    padding-left: 2%;
+    padding-left: 12px;
     padding-bottom: 2%;
+    display: flex;
+    
+}
+
+.code{
+    color: rgb(228, 222, 222);
+    padding-top: 15px;
+    padding-right: 7px;
+    font-size: x-small;
+        font-weight: 800;
 }
 
 .cn .city input{
@@ -250,8 +272,9 @@ input{
 }
 
 .cn .city{
-    padding-left: 8%;
+    padding-left: 33px;
     padding-bottom: 2%;
+    display: flex;
 }
 
 .cn .country input{
@@ -264,7 +287,39 @@ input{
 .cn .country{
     padding-left: 2%;
     padding-bottom: 2%;
+    display: flex;
 }
+
+.male-female .m1{
+    display: flex;
+    gap: 15px;
+   
+}
+
+.male-female .f1{
+    display: flex;
+    gap: 15px;
+    
+}
+
+.male-female .m1 .m{
+    color: rgb(136, 135, 135);
+    font-size: large;
+}
+
+.male-female .f1 .f{
+    color: rgb(136, 135, 135);
+    font-size: large;
+}
+
+.male-female .m1 .m i{
+    color: rgb(228, 222, 222);
+}
+
+.male-female .f1 .f i{
+    color: rgb(228, 222, 222);
+}
+
 
 .submit input{
     font-size:x-large;
@@ -272,19 +327,40 @@ input{
     height: 50px;
     width: 20%;
     padding-top: 2px ;
-    border-radius: 80px;
+    border-radius: 8px;
+    color: white;
+    transition: background-color 0.8s, color 0.8s;
+    transition-timing-function: ease;
 }
 
-.submit{
-    padding-top: 3%;
-    padding-bottom: 3%;
+@keyframes heartbeat{
+    0%, 50%, 100%{
+        transform: scale(1);
+    }
+    25% {
+        transform: scale(1.1);
+    }
+    75% {
+        transform: scale(1.05);
+    }
 }
+
+
 
 .submit input:hover{
     background-color: white;
     color: black;
     cursor: pointer;
     font-weight: bolder;
+    animation-name: heartbeat;
+    animation-duration: 0.6s;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+}
+
+.submit{
+    padding-top: 3%;
+    padding-bottom: 3%;
 }
 
 .log{
@@ -293,9 +369,20 @@ input{
     background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
     height: 50px;
     width: 100%;
+    font-size: larger
 }
 
 .log a{
     text-decoration: none;
-    color: rgb(133, 127, 127);
+    color: rgb(59, 124, 221);
+    font-weight: 800;
 }
+
+
+
+
+                /* Respnsive */
+
+
+
+/* @media() */
