@@ -56,21 +56,25 @@ input{
 .name{
     display: flex;
     gap: 20%;
+    padding-left: 35px;
 }
 
 .password{
     display: flex;
     gap: 20%;
+    padding-left: 39px;
 }
 
 .ep{
     display: flex;
     gap: 20%;
+    padding-left: 34px;
 }
 
 .da{
     display: flex;
     gap: 20%;
+    padding-left: 32px;
 }
 
 .male-female{
@@ -84,11 +88,13 @@ input{
 .Address{
     display: flex;
     gap: 20%;
+    padding-left: 34px;
 }
 
 .cn{
     display: flex;
     gap: 20%;
+    padding-left: 42px;
 }
 
 
@@ -102,7 +108,7 @@ input{
 }
 
 .name .name1{
-    padding-left: 4%;
+    /* padding-left: 4%; */
     padding-bottom: 2%;
     display: flex;
 }
@@ -113,6 +119,14 @@ input{
     padding-right: 10px;
     font-weight: lighter;
 }
+
+.icon-n1-2 i{
+    color: rgb(228, 222, 222);
+    padding-top: 11px;
+    padding-right: 10px;
+    font-weight: lighter;
+}
+
 
 
 .name .name2 input{
@@ -138,7 +152,7 @@ input{
 }
 
 .password .pass1{
-    padding-left: 32px;
+    /* padding-left: 32px; */
     padding-bottom: 2%;
     display: flex;
 
@@ -176,7 +190,7 @@ input{
 }
 
 .ep .email{
-    padding-left: 4%;
+    /* padding-left: 4%; */
     padding-bottom: 2%;
     display: flex;
 }
@@ -202,7 +216,7 @@ input{
 }
 
 .da .DOB{
-    padding-left: 23px;
+    /* padding-left: 23px; */
     padding-bottom: 2%;
     display: flex;
 }
@@ -223,7 +237,7 @@ input{
 }
 
 .da .age{
-    padding-left: 41px;
+    padding-left: 38px;
     padding-bottom: 2%;
     display: flex;
 }
@@ -237,7 +251,7 @@ input{
 }
 
 .Address .add{
-    padding-left: 25px;
+    /* padding-left: 25px; */
     padding-bottom: 2%;
     display: flex;
 }
@@ -272,7 +286,7 @@ input{
 }
 
 .cn .city{
-    padding-left: 33px;
+    /* padding-left: 33px; */
     padding-bottom: 2%;
     display: flex;
 }
@@ -385,4 +399,304 @@ input{
 
 
 
-/* @media() */
+@media(max-width:1300px){
+    .form{
+        background-image: url(/1951962.png);
+        background-size: 100%;
+        height: 625px;
+        text-align: center;
+        padding-left: 20%;
+        padding-right: 20%;
+        padding-top: 14px;
+        /* padding-bottom: 5%; */
+    }
+    
+    .background{
+        text-align: center;
+        background: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0.4));
+        height: 600px;
+     }
+
+     .submit{
+        padding-top: 3%;
+        padding-bottom: 2%;
+    }
+
+     .log{
+    color: white;
+    padding-top: 20px;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
+    height: 50px;
+    width: 100%;
+    font-size: larger
+}
+}
+
+@media(max-width:1150px){
+    .form{
+        background-image: url(/1951962.png);
+        background-size: 105%;
+        height: 625px;
+}
+
+}
+
+@media(max-width:1100px){
+    .name{
+    display: flex;
+    gap: 15%;
+}
+
+.password{
+    display: flex;
+    gap: 15%;
+}
+
+.ep{
+    display: flex;
+    gap: 15%;
+}
+
+.da{
+    display: flex;
+    gap: 15%;
+}
+
+.Address{
+    display: flex;
+    gap: 15%;
+}
+
+.cn{
+    display: flex;
+    gap: 15%;
+}
+
+.male-female{
+    display: flex;
+    gap: 8%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 8%;
+}
+}
+
+@media(max-width:1050px){
+
+    .name{
+        display: flex;
+        gap: 15%;
+        padding-left: 25px;
+    }
+    
+    .password{
+        display: flex;
+        gap: 15%;
+        padding-left: 29px;
+    }
+    
+    .ep{
+        display: flex;
+        gap: 15%;
+        padding-left: 24px;
+    }
+    
+    .da{
+        display: flex;
+        gap: 15%;
+        padding-left: 22px;
+    }
+    
+ 
+    
+    .Address{
+        display: flex;
+        gap: 15%;
+        padding-left: 24px;
+    }
+    
+    .cn{
+        display: flex;
+        gap: 15%;
+        padding-left: 32px;
+    }
+
+    .male-female{
+        display: flex;
+        gap: 8%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        padding-left: 7%;
+    }
+
+    .cn .country{
+        padding-left: 3%;
+        padding-bottom: 2%;
+        display: flex;
+    }
+
+    .form{
+        background-image: url(/1951962.png);
+        background-size: 111%;
+        height: 625px;
+}
+
+}
+
+@media(max-width:1000px){
+
+    .form{
+        background-image: url(/responsive\ bg.png);
+        background-size: 100%;
+        height: 920px;
+        text-align: center;
+}
+
+.background{
+    text-align: center;
+    background: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0.5));
+    height: 900px;
+ }
+
+ .submit{
+    padding-top: 5%;
+    padding-bottom: 3%;
+}
+
+    .name{
+        display: flex;
+        flex-direction: column;
+        padding-left: 25px;
+    }
+    
+    .password{
+        display: flex;
+        flex-direction: column;
+        padding-left: 29px;
+    }
+    
+    .ep{
+        display: flex;
+        flex-direction: column;
+        padding-left: 24px;
+    }
+    
+    .da{
+        display: flex;
+        flex-direction: column;
+        padding-left: 22px;
+    }
+    
+ 
+    
+    .Address{
+        display: flex;
+        flex-direction: column;
+        padding-left: 24px;
+    }
+    
+    .cn{
+        display: flex;
+        flex-direction: column;
+        padding-left: 32px;
+    }
+
+    
+.name .name2{
+    padding-left: 0%;
+    padding-bottom: 2%;
+    display: flex;
+}
+
+
+.password .pass2{
+    padding-left: 0;
+    padding-bottom: 2%;
+    display: flex;
+
+}
+
+
+.ep .phno{
+    padding-left: 0;
+    padding-bottom: 2%;
+    display: flex;
+}
+
+
+.da .age{
+    padding-left: 0;
+    padding-bottom: 2%;
+    display: flex;
+}
+
+.Address .pin{
+    padding-left: 0;
+    padding-bottom: 2%;
+    display: flex;
+    
+}
+
+.cn .country{
+    padding-left: 0;
+    padding-bottom: 2%;
+    display: flex;
+}
+
+.name{
+    display: flex;
+    gap: 15%;
+    padding-left: 25px;
+}
+
+.password{
+    display: flex;
+    gap: 15%;
+    padding-left: 29px;
+}
+
+.ep{
+    display: flex;
+    gap: 15%;
+    padding-left: 24px;
+}
+
+.da{
+    display: flex;
+    gap: 15%;
+    padding-left: 15px;
+}
+
+
+
+.Address{
+    display: flex;
+    gap: 15%;
+    padding-left: 24px;
+}
+
+.cn{
+    display: flex;
+    gap: 15%;
+    padding-left: 32px;
+}
+
+.male-female{
+    display: flex;
+    gap: 8%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 7%;
+}
+
+.cn .country{
+    padding-left: 3%;
+    padding-bottom: 2%;
+    display: flex;
+}
+
+
+}
+
+
+
