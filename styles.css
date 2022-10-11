@@ -872,15 +872,15 @@ input{
     .form{
         padding-left: 14%;
         background-size: 214%;
-        height: 880px;
+        height: 800px;
     }
 
     .background{
-        height: 850px;
+        height: 780px;
     }
     
     .content{
-        padding-left: 21%;
+        padding-left: 24%;
     }
 
     
@@ -894,14 +894,14 @@ input{
     }
 
     .submit input{
-        font-size:x-large;
+        font-size:large;
         border: 1px solid white;
-        height: 50px;
-        width: 40%;
+        height: 40px;
+        width: 35%;
     }
 
     .name .name1 input{
-        font-size:medium;
+        font-size:small;
         height: 35px;
         width: 100%;
         padding-left: 3%
@@ -909,7 +909,7 @@ input{
     }
      
     .name .name2 input{
-        font-size:medium;
+        font-size:small;
         height:35px;
         width:100%;
         padding-left: 3%
@@ -917,7 +917,7 @@ input{
     }
     
     .password .pass1 input{
-        font-size:medium;
+        font-size:small;
         height:35px;
         width:100%;
         padding-left: 4%
@@ -925,7 +925,7 @@ input{
     }
     
     .password .pass2 input{
-        font-size:medium;
+        font-size:small;
         height:35px;
         width:100%;
         padding-left: 5%
@@ -933,7 +933,7 @@ input{
     }
 
     .ep .email input{
-        font-size:medium;
+        font-size:small;
         height:35px;
         width:100%;
         padding-left: 5%
@@ -941,7 +941,7 @@ input{
     
 
     .ep .phno input{
-        font-size:medium;
+        font-size:small;
         height:35px;
         width:100%;
         padding-left: 5%
@@ -949,42 +949,42 @@ input{
     
 
     .da .DOB input{
-        font-size:medium;
+        font-size:small;
         height: 40px;
         width: 115%;
         padding-left: 5%
     }
      
     .da .age input{
-        font-size:medium;
+        font-size:small;
         height:35px;
         width:100%;
         padding-left: 5%
     }
        
     .Address .add input{
-        font-size:medium;
+        font-size:small;
         height:35px;
         width:100%;
         padding-left: 5%
     }
     
     .Address .pin input{
-        font-size:medium;
+        font-size:small;
         height:35px;
         width:100%;
         padding-left: 5%
     }
   
     .cn .city input{
-        font-size:medium;
+        font-size:small;
         height:35px;
         width:100%;
         padding-left: 5%
     }
     
     .cn .country input{
-        font-size:medium;
+        font-size:small;
         height:35px;
         width:100%;
         padding-left: 5%
@@ -1010,12 +1010,12 @@ input{
     
     .male-female .m1 .m{
         color: rgb(136, 135, 135);
-        font-size: medium;
+        font-size: small;
     }
     
     .male-female .f1 .f{
         color: rgb(136, 135, 135);
-        font-size: medium;
+        font-size: small;
     }
     
     .male-female .m1 .m i{
@@ -1024,6 +1024,10 @@ input{
     
     .male-female .f1 .f i{
         color: rgb(228, 222, 222);
+    }
+
+    .log{
+        font-size: small;
     }
     
 
