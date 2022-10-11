@@ -41,40 +41,45 @@ input{
     text-align: center;
     background: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0.4));
     height: 600px;
+    width: 110;
  }
 
 .header{
     color: white;
     padding-top: 2%;
-    padding-bottom: 2%;
+    padding-bottom: 5%;
 }
 
 .header h1{
     padding-bottom: 10px;
 }
 
+.content{
+    padding-left: 5%;
+}
+
 .name{
     display: flex;
     gap: 20%;
-    padding-left: 35px;
+    /* padding-left: 35px; */
 }
 
 .password{
     display: flex;
     gap: 20%;
-    padding-left: 39px;
+    /* padding-left: 39px; */
 }
 
 .ep{
     display: flex;
     gap: 20%;
-    padding-left: 34px;
+    /* padding-left: 34px; */
 }
 
 .da{
     display: flex;
     gap: 20%;
-    padding-left: 32px;
+    /* padding-left: 32px; */
 }
 
 .male-female{
@@ -82,20 +87,165 @@ input{
     gap: 8%;
     padding-top: 2%;
     padding-bottom: 2%;
-    padding-left: 8%;
+    padding-left: 6px;
 }
 
 .Address{
     display: flex;
     gap: 20%;
-    padding-left: 34px;
+    /* padding-left: 34px; */
 }
 
 .cn{
     display: flex;
     gap: 20%;
-    padding-left: 42px;
+    /* padding-left: 42px; */
 }
+
+.icon-n1 i{
+    color: rgb(228, 222, 222);
+    padding-top: 11px;
+    /* padding-right: 10px; */
+    font-weight: lighter;
+}
+
+.icon-n2 i{
+    color: rgb(228, 222, 222);
+    padding-top: 11px;
+    /* padding-right: 7px; */
+    font-weight: lighter;
+    /* transform: translateX(-2px); */
+}
+
+.icon-n3 i{
+    color: rgb(228, 222, 222);
+    padding-top: 11px;
+    /* padding-right: 10px; */
+    font-weight: lighter;
+    padding-left: 3px;
+}
+
+.icon-n4 i{
+    color: rgb(228, 222, 222);
+    padding-top: 11px;
+    /* padding-right: 10px; */
+    font-weight: lighter;
+    padding-left: 3px;
+}
+
+.icon-n5 i{
+    color: rgb(228, 222, 222);
+    padding-top: 11px;
+    /* padding-right: 10px; */
+    font-weight: lighter;
+    padding-left: 1px;
+}
+
+.icon-n6 i{
+    color: rgb(228, 222, 222);
+    padding-top: 11px;
+    /* padding-right: 10px; */
+    font-weight: lighter;
+    padding-left: 4px;
+}
+
+.icon-n7{
+    color: rgb(228, 222, 222);
+    padding-top: 15px;
+    /* padding-right: 7px; */
+    font-size: x-small;
+    font-weight: 800;
+}
+
+.icon-n8 i{
+    color: rgb(228, 222, 222);
+    padding-top: 11px;
+    /* padding-right: 10px; */
+    font-weight: lighter;
+    padding-left: 27px;
+}
+
+.icon-n9 i{
+    color: rgb(228, 222, 222);
+    padding-top: 11px;
+    /* padding-right: 10px; */
+    font-weight: lighter;
+    padding-left: 2px;
+}
+
+.icon-n10 {
+    color: rgb(228, 222, 222);
+    padding-top: 15px;
+    /* padding-right: 7px; */
+    font-size: x-small;
+    font-weight: 800;
+    padding-left: 3px;
+}
+
+.icon-n11 i{
+    color: rgb(228, 222, 222);
+    padding-top: 11px;
+    /* padding-right: 10px; */
+    font-weight: lighter;
+    padding-left: 7px;
+}
+
+.icon-n12 i{
+    color: rgb(228, 222, 222);
+    padding-top: 11px;
+    /* padding-right: 10px; */
+    font-weight: lighter;
+    padding-left: 4px;
+}
+
+.n1{
+    margin-left: 15px;
+}
+
+.n2{
+    margin-left: 15px;
+}
+
+.p1{
+    margin-left: 18px;
+}
+
+.p2{
+    margin-left: 18px;
+}
+
+.e1{
+    margin-left: 14px;
+}
+
+.ph1{
+    margin-left: 17px;
+}
+
+.date2{
+    margin-left: 10px;
+}
+
+.a1{
+    margin-left: 15px;
+}
+
+.add1{
+    margin-left: 12px;
+}
+
+.pin1{
+    margin-left: 13px;
+}
+
+.c1{
+    margin-left: 17px;
+}
+
+.country1{
+    margin-left: 15px;
+}
+
 
 
 
@@ -113,19 +263,7 @@ input{
     display: flex;
 }
 
-.icon-n1 i{
-    color: rgb(228, 222, 222);
-    padding-top: 11px;
-    padding-right: 10px;
-    font-weight: lighter;
-}
 
-.icon-n1-2 i{
-    color: rgb(228, 222, 222);
-    padding-top: 11px;
-    padding-right: 10px;
-    font-weight: lighter;
-}
 
 
 
@@ -138,7 +276,7 @@ input{
 }
 
 .name .name2{
-    padding-left: 2%;
+    /* padding-left: 2%; */
     padding-bottom: 2%;
     display: flex;
 }
@@ -168,19 +306,13 @@ input{
 }
 
 .password .pass2{
-    padding-left: 19px;
+    /* padding-left: 19px; */
     padding-bottom: 2%;
     display: flex;
 
 }
 
-.icon-n2 i{
-    color: rgb(228, 222, 222);
-    padding-top: 11px;
-    padding-right: 7px;
-    font-weight: lighter;
-    /* transform: translateX(-2px); */
-}
+
 
 .ep .email input{
     font-size:large;
@@ -203,7 +335,7 @@ input{
 }
 
 .ep .phno{
-    padding-left: 16px;
+    /* padding-left: 16px; */
     padding-bottom: 2%;
     display: flex;
 }
@@ -211,7 +343,7 @@ input{
 .da .DOB input{
     font-size:large;
     height: 40px;
-    width: 175%;
+    width: 172%;
     padding-left: 5%
 }
 
@@ -221,13 +353,7 @@ input{
     display: flex;
 }
 
-.date1{
-    color: rgb(228, 222, 222);
-    padding-top: 15px;
-    padding-right: 7px;
-    font-size: x-small;
-    font-weight: 800;
-}
+
 
 .da .age input{
     font-size:large;
@@ -237,7 +363,7 @@ input{
 }
 
 .da .age{
-    padding-left: 38px;
+    /* padding-left: 38px; */
     padding-bottom: 2%;
     display: flex;
 }
@@ -264,19 +390,13 @@ input{
 }
 
 .Address .pin{
-    padding-left: 12px;
+    /* padding-left: 12px; */
     padding-bottom: 2%;
     display: flex;
     
 }
 
-.code{
-    color: rgb(228, 222, 222);
-    padding-top: 15px;
-    padding-right: 7px;
-    font-size: x-small;
-        font-weight: 800;
-}
+
 
 .cn .city input{
     font-size:large;
@@ -299,7 +419,7 @@ input{
 }
 
 .cn .country{
-    padding-left: 2%;
+    /* padding-left: 17px; */
     padding-bottom: 2%;
     display: flex;
 }
@@ -333,6 +453,7 @@ input{
 .male-female .f1 .f i{
     color: rgb(228, 222, 222);
 }
+
 
 
 .submit input{
@@ -373,7 +494,7 @@ input{
 }
 
 .submit{
-    padding-top: 3%;
+    padding-top: 1%;
     padding-bottom: 3%;
 }
 
@@ -395,308 +516,517 @@ input{
 
 
 
-                /* Respnsive */
+/* Responsive */
+
+
+
+
+
+
+
+
 
 
 
 @media(max-width:1300px){
-    .form{
+    .background{
+        text-align: center;
+        background: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0.4));
+        height: 600px;
+        width: 103%;
+     }
+
+
+     .form{
         background-image: url(/1951962.png);
         background-size: 100%;
         height: 625px;
         text-align: center;
         padding-left: 20%;
-        padding-right: 20%;
+        padding-right: 25%;
         padding-top: 14px;
-        /* padding-bottom: 5%; */
-    }
-    
-    .background{
-        text-align: center;
-        background: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0.4));
-        height: 600px;
-     }
-
-     .submit{
-        padding-top: 3%;
-        padding-bottom: 2%;
     }
 
-     .log{
-    color: white;
-    padding-top: 20px;
-    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
-    height: 50px;
-    width: 100%;
-    font-size: larger
-}
+    .content{
+        padding-left: 7%;
+    }
 }
 
-@media(max-width:1150px){
-    .form{
-        background-image: url(/1951962.png);
-        background-size: 105%;
-        height: 625px;
+@media(max-width:1250px){
+    .content{
+        padding-left: 5%;
+    }
 }
 
+@media(max-width:1200px){
+    .content{
+        padding-left: 3%;
+    }
 }
 
 @media(max-width:1100px){
-    .name{
-    display: flex;
-    gap: 15%;
-}
-
-.password{
-    display: flex;
-    gap: 15%;
-}
-
-.ep{
-    display: flex;
-    gap: 15%;
-}
-
-.da{
-    display: flex;
-    gap: 15%;
-}
-
-.Address{
-    display: flex;
-    gap: 15%;
-}
-
-.cn{
-    display: flex;
-    gap: 15%;
-}
-
-.male-female{
-    display: flex;
-    gap: 8%;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    padding-left: 8%;
-}
-}
-
-@media(max-width:1050px){
-
-    .name{
-        display: flex;
-        gap: 15%;
-        padding-left: 25px;
-    }
-    
-    .password{
-        display: flex;
-        gap: 15%;
-        padding-left: 29px;
-    }
-    
-    .ep{
-        display: flex;
-        gap: 15%;
-        padding-left: 24px;
-    }
-    
-    .da{
-        display: flex;
-        gap: 15%;
-        padding-left: 22px;
-    }
-    
- 
-    
-    .Address{
-        display: flex;
-        gap: 15%;
-        padding-left: 24px;
-    }
-    
-    .cn{
-        display: flex;
-        gap: 15%;
-        padding-left: 32px;
-    }
-
-    .male-female{
-        display: flex;
-        gap: 8%;
-        padding-top: 2%;
-        padding-bottom: 2%;
-        padding-left: 7%;
-    }
-
-    .cn .country{
-        padding-left: 3%;
-        padding-bottom: 2%;
-        display: flex;
+    .background{
+        width: 120%;
     }
 
     .form{
-        background-image: url(/1951962.png);
-        background-size: 111%;
-        height: 625px;
+        background-size: 106%;
+    }
 }
 
+@media(max-width:1150px){
+    .background{
+        width: 120%;
+    }
+
+    .form{
+        background-size: 111%;
+    }
 }
 
 @media(max-width:1000px){
 
+    .content{
+        padding-left: 28%;
+    }
+
+
     .form{
         background-image: url(/responsive\ bg.png);
-        background-size: 100%;
+        background-size: 104%;
         height: 920px;
-        text-align: center;
-}
+    }
 
-.background{
-    text-align: center;
-    background: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0.5));
-    height: 900px;
- }
-
- .submit{
-    padding-top: 5%;
-    padding-bottom: 3%;
-}
+    .background{
+        height: 900px;
+        background: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0.7));
+    }
 
     .name{
         display: flex;
-        flex-direction: column;
-        padding-left: 25px;
+       flex-direction: column;
+        gap: 20%;
+       
     }
     
     .password{
         display: flex;
-        flex-direction: column;
-        padding-left: 29px;
+       flex-direction: column;
+        gap: 20%;
+       
     }
     
     .ep{
         display: flex;
-        flex-direction: column;
-        padding-left: 24px;
+       flex-direction: column;
+        gap: 20%;
+       
     }
     
     .da{
         display: flex;
-        flex-direction: column;
-        padding-left: 22px;
+       flex-direction: column;
+        gap: 20%;
+       
     }
-    
- 
-    
+
     .Address{
         display: flex;
-        flex-direction: column;
-        padding-left: 24px;
+       flex-direction: column;
+        gap: 20%;
+       
     }
     
     .cn{
         display: flex;
-        flex-direction: column;
-        padding-left: 32px;
+       flex-direction: column;
+        gap: 20%;
+       
+    }
+
+    .da .age{
+        transform: translateX(-20px);
+        padding-bottom: 2%;
+        display: flex;
+    }
+
+    .submit{
+        padding-top: 5%;
+        padding-bottom: 3%;
+    }
+
+}
+
+@media(max-width:950px){
+    .form{
+        background-image: url(/responsive\ bg.png);
+        background-size: 111%;
+        height: 920px;
+    }
+
+}
+
+@media(max-width:900px){
+
+    .form{
+        padding-left: 14%;
+        background-size: 117%;
+    }
+
+    .content{
+        padding-left: 27%;
+    }
+
+    .header{
+        padding-bottom: 9%;
+    }
+
+}
+
+@media(max-width:850px){
+    .form{
+        padding-left: 14%;
+        background-size: 125%;
+    }
+}
+
+@media(max-width:800px){
+    .form{
+        padding-left: 14%;
+        background-size: 133%;
+    }
+    
+    .content{
+        padding-left: 25%;
+    }
+
+    .submit input{
+        font-size:x-large;
+        border: 1px solid white;
+        height: 50px;
+        width: 22%;
+    }
+}
+
+@media(max-width:750px){
+    .form{
+        padding-left: 14%;
+        background-size: 143%;
+    }
+    
+    .content{
+        padding-left: 23%;
+    }
+
+    .submit input{
+        font-size:x-large;
+        border: 1px solid white;
+        height: 50px;
+        width: 25%;
+    }
+}
+
+@media(max-width:700px){
+    .form{
+        padding-left: 14%;
+        background-size: 154%;
+    }
+    
+    .content{
+        padding-left: 20%;
     }
 
     
-.name .name2{
-    padding-left: 0%;
-    padding-bottom: 2%;
-    display: flex;
+    .submit{
+        padding-top: 8%;
+        padding-bottom: 3%;
+    }
+
+    .submit input{
+        font-size:x-large;
+        border: 1px solid white;
+        height: 50px;
+        width: 28%;
+    }
+
 }
 
-
-.password .pass2{
-    padding-left: 0;
-    padding-bottom: 2%;
-    display: flex;
-
-}
-
-
-.ep .phno{
-    padding-left: 0;
-    padding-bottom: 2%;
-    display: flex;
-}
-
-
-.da .age{
-    padding-left: 0;
-    padding-bottom: 2%;
-    display: flex;
-}
-
-.Address .pin{
-    padding-left: 0;
-    padding-bottom: 2%;
-    display: flex;
+@media(max-width:650px){
+    .form{
+        padding-left: 14%;
+        background-size: 166%;
+    }
     
+    .content{
+        padding-left: 17%;
+    }
+
+    
+    .submit{
+        padding-top: 9%;
+        padding-bottom: 3%;
+    }
+
+    .header{
+        padding-top: 7%;
+    }
+
+    .submit input{
+        font-size:x-large;
+        border: 1px solid white;
+        height: 50px;
+        width: 30%;
+    }
 }
 
-.cn .country{
-    padding-left: 0;
-    padding-bottom: 2%;
-    display: flex;
+@media(max-width:600px){
+    .form{
+        padding-left: 14%;
+        background-size: 182%;
+    }
+    
+    .content{
+        padding-left: 17%;
+    }
+
+    
+    .submit{
+        padding-top: 14%;
+        padding-bottom: 5%;
+    }
+
+    .header{
+        padding-top: 7%;
+    }
+
+    .submit input{
+        font-size:x-large;
+        border: 1px solid white;
+        height: 50px;
+        width: 30%;
+    }
 }
 
-.name{
-    display: flex;
-    gap: 15%;
-    padding-left: 25px;
+@media(max-width:550px){
+    .form{
+        padding-left: 14%;
+        background-size: 200%;
+    }
+    
+    .content{
+        padding-left: 11%;
+    }
+
+    
+    .submit{
+        padding-top: 12%;
+        padding-bottom: 7%;
+    }
+
+    .header{
+        padding-top: 7%;
+    }
+
+    .submit input{
+        font-size:x-large;
+        border: 1px solid white;
+        height: 50px;
+        width: 30%;
+    }
 }
 
-.password{
-    display: flex;
-    gap: 15%;
-    padding-left: 29px;
+@media(max-width:500px){
+    .form{
+        padding-left: 14%;
+        background-size: 214%;
+        height: 880px;
+    }
+
+    .background{
+        height: 850px;
+    }
+    
+    .content{
+        padding-left: 7%;
+    }
+
+    
+    .submit{
+        padding-top: 12%;
+        padding-bottom: 7%;
+    }
+
+    .header{
+        padding-top: 7%;
+    }
+
+    .submit input{
+        font-size:x-large;
+        border: 1px solid white;
+        height: 50px;
+        width: 40%;
+    }
 }
 
-.ep{
-    display: flex;
-    gap: 15%;
-    padding-left: 24px;
+@media(max-width:450px){
+    .form{
+        padding-left: 14%;
+        background-size: 214%;
+        height: 880px;
+    }
+
+    .background{
+        height: 850px;
+    }
+    
+    .content{
+        padding-left: 21%;
+    }
+
+    
+    .submit{
+        padding-top: 12%;
+        padding-bottom: 7%;
+    }
+
+    .header{
+        padding-top: 7%;
+    }
+
+    .submit input{
+        font-size:x-large;
+        border: 1px solid white;
+        height: 50px;
+        width: 40%;
+    }
+
+    .name .name1 input{
+        font-size:medium;
+        height: 35px;
+        width: 100%;
+        padding-left: 3%
+    
+    }
+     
+    .name .name2 input{
+        font-size:medium;
+        height:35px;
+        width:100%;
+        padding-left: 3%
+    
+    }
+    
+    .password .pass1 input{
+        font-size:medium;
+        height:35px;
+        width:100%;
+        padding-left: 4%
+    
+    }
+    
+    .password .pass2 input{
+        font-size:medium;
+        height:35px;
+        width:100%;
+        padding-left: 5%
+        
+    }
+
+    .ep .email input{
+        font-size:medium;
+        height:35px;
+        width:100%;
+        padding-left: 5%
+    }
+    
+
+    .ep .phno input{
+        font-size:medium;
+        height:35px;
+        width:100%;
+        padding-left: 5%
+    }
+    
+
+    .da .DOB input{
+        font-size:medium;
+        height: 40px;
+        width: 115%;
+        padding-left: 5%
+    }
+     
+    .da .age input{
+        font-size:medium;
+        height:35px;
+        width:100%;
+        padding-left: 5%
+    }
+       
+    .Address .add input{
+        font-size:medium;
+        height:35px;
+        width:100%;
+        padding-left: 5%
+    }
+    
+    .Address .pin input{
+        font-size:medium;
+        height:35px;
+        width:100%;
+        padding-left: 5%
+    }
+  
+    .cn .city input{
+        font-size:medium;
+        height:35px;
+        width:100%;
+        padding-left: 5%
+    }
+    
+    .cn .country input{
+        font-size:medium;
+        height:35px;
+        width:100%;
+        padding-left: 5%
+    }
+    
+    .cn .country{
+        /* padding-left: 17px; */
+        padding-bottom: 2%;
+        display: flex;
+    }
+    
+    .male-female .m1{
+        display: flex;
+        gap: 15px;
+       
+    }
+    
+    .male-female .f1{
+        display: flex;
+        gap: 15px;
+        
+    }
+    
+    .male-female .m1 .m{
+        color: rgb(136, 135, 135);
+        font-size: medium;
+    }
+    
+    .male-female .f1 .f{
+        color: rgb(136, 135, 135);
+        font-size: medium;
+    }
+    
+    .male-female .m1 .m i{
+        color: rgb(228, 222, 222);
+    }
+    
+    .male-female .f1 .f i{
+        color: rgb(228, 222, 222);
+    }
+    
+
 }
-
-.da{
-    display: flex;
-    gap: 15%;
-    padding-left: 15px;
-}
-
-
-
-.Address{
-    display: flex;
-    gap: 15%;
-    padding-left: 24px;
-}
-
-.cn{
-    display: flex;
-    gap: 15%;
-    padding-left: 32px;
-}
-
-.male-female{
-    display: flex;
-    gap: 8%;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    padding-left: 7%;
-}
-
-.cn .country{
-    padding-left: 3%;
-    padding-bottom: 2%;
-    display: flex;
-}
-
-
-}
-
 
 
