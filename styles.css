@@ -880,7 +880,7 @@ input{
     }
     
     .content{
-        padding-left: 24%;
+        padding-left: 10%;
     }
 
     
@@ -1052,7 +1052,7 @@ input{
     .form{
         padding-left: 14%;
         background-size: 223%;
-        height: 720px;
+        height: 750px;
     }
 
     .background{
@@ -1060,7 +1060,7 @@ input{
     }
     
     .content{
-        padding-left: 19%;
+        padding-left: 10%;
     }
 
     .submit{
