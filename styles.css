@@ -871,22 +871,23 @@ input{
 @media(max-width:450px){
     .form{
         padding-left: 14%;
-        background-size: 214%;
-        height: 800px;
+        padding-top: 10%;
+        background-size: 220%;
+        height: 900px;
     }
 
     .background{
-        height: 780px;
+        height: 820px;
     }
     
     .content{
-        padding-left: 10%;
+        padding-left: 15%;
     }
 
     
     .submit{
-        padding-top: 12%;
-        padding-bottom: 7%;
+        padding-top: 14%;
+        padding-bottom: 14%;
     }
 
     .header{
@@ -1051,12 +1052,13 @@ input{
 @media(max-width:400px){
     .form{
         padding-left: 14%;
+        padding-top: 11%;
         background-size: 223%;
-        height: 750px;
+        height: 800px;
     }
 
     .background{
-        height: 700px;
+        height: 724px;
     }
     
     .content{
@@ -1064,8 +1066,8 @@ input{
     }
 
     .submit{
-        padding-top: 7%;
-        padding-bottom: 3%;
+        padding-top: 5%;
+        padding-bottom: 5%;
     }
 
     .log{
@@ -1078,12 +1080,13 @@ input{
 @media(max-width:350px){
     .form{
         padding-left: 14%;
+        padding-top: 12%;
         background-size: 258%;
-        height: 710px;
+        height: 800px;
     }
 
     .background{
-        height: 685px;
+        height: 720px;
     }
     
     .content{
@@ -1091,8 +1094,8 @@ input{
     }
 
     .submit{
-        padding-top: 10%;
-        padding-bottom: 7%;
+        padding-top: 15%;
+        padding-bottom: 10%;
     }
 
     .log{
@@ -1268,8 +1271,9 @@ input{
 @media(max-width:300px){
     .form{
         padding-left: 14%;
-        background-size: 258%;
-        height: 750px;
+        background-size: 275%;
+        height: 800px;
+        padding-top: 14%;
     }
 
     .background{
@@ -1278,6 +1282,11 @@ input{
     
     .content{
         padding-left: 5%;
+    }
+
+    .submit{
+        padding-top: 15%;
+        padding-bottom: 15%;
     }
 
 
