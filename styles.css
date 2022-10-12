@@ -599,7 +599,7 @@ input{
 
     .background{
         height: 900px;
-        background: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0.7));
+        background: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0.5));
     }
 
     .name{
@@ -1087,7 +1087,7 @@ input{
     }
     
     .content{
-        padding-left: 15%;
+        padding-left: 18%;
     }
 
     .submit{
@@ -1263,6 +1263,22 @@ input{
     
     }
 
+}
+
+@media(max-width:300px){
+    .form{
+        padding-left: 14%;
+        background-size: 258%;
+        height: 710px;
+    }
+
+    .background{
+        height: 685px;
+    }
+    
+    .content{
+        padding-left: 15%;
+    }
 }
 
 
