@@ -872,7 +872,7 @@ input{
     .form{
         padding-left: 14%;
         padding-top: 10%;
-        background-size: 240%;
+        background-size: 245%;
         height: 900px;
     }
 
@@ -1052,9 +1052,9 @@ input{
 @media(max-width:400px){
     .form{
         padding-left: 14%;
-        padding-top: 11%;
+        padding-top: 13%;
         background-size: 246%;
-        height: 800px;
+        height: 820px;
     }
 
     .background{
@@ -1081,8 +1081,8 @@ input{
     .form{
         padding-left: 14%;
         padding-top: 12%;
-        background-size: 258%;
-        height: 800px;
+        background-size: 295%;
+        height: 820px;
     }
 
     .background{
