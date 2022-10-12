@@ -1269,16 +1269,18 @@ input{
     .form{
         padding-left: 14%;
         background-size: 258%;
-        height: 710px;
+        height: 750px;
     }
 
     .background{
-        height: 685px;
+        height: 720px;
     }
     
     .content{
-        padding-left: 15%;
+        padding-left: 10%;
     }
+
+
 }
 
 
