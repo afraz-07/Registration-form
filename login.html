@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <title>Login</title>
+</head>
+<body>
+
+    <div class="form">
+        <div class="background">
+            <div class="content">
+                <div class="icon1">
+                    <i class="fa fa-user-circle-o  fa-5x" aria-hidden="true" ></i>
+                </div>
+                    <div class="inputs">
+
+
+                        <div class="username">
+
+                            <div class="icon2">
+                                <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                            </div>
+
+                            <div class="email">
+                                <input type="email" placeholder="Email ID" maxlength="40" required>
+                            </div>
+
+                        </div>
+
+
+
+
+                        <div class="pass">
+
+                            <div class="icon3">
+                                <i class="fa fa-lock" aria-hidden="true"></i>
+                            </div>
+
+                            <div class="password">
+                                <input type="password" placeholder="Password" value="" id="myInput" maxlength="10" required><br><br>
+                            </div>
+                        
+                        </div>   
+                        
+                    </div>    
+
+                <div class="sf">
+
+                    <div class="show">
+                    
+                        <input type="checkbox" onclick="myFunction()">    Show Password
+                    
+                        <script>
+                            function myFunction() {
+                                var x = document.getElementById("myInput");
+                                if (x.type === "password") {
+                                    x.type = "text";
+                                } else {
+                                    x.type = "password";
+                                }
+                            }
+                        </script>
+                    
+                    </div>
+
+                    <div class="forgot">
+                        <p><a href="">Forgot Password?</a></p>
+                    </div>       
+                </div>       
+                    
+
+                    
+
+                    <div class="login-btn">
+                        <button>Login</button>
+                    </div>
+
+
+                    <div class="Create">
+                        <a href="/index.html">Create an Account</a>
+                    </div>
+                
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
