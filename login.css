@@ -490,12 +490,12 @@ i{
 @media(max-width:500px){
         
     .inputs{
-        padding-left: 7%;
+        padding-left: 12%;
 
     }
 
     .userpass{
-        padding-left: 2%;
+        padding-left: 5%;
     }
     
 
@@ -518,12 +518,12 @@ i{
 @media(max-width:450px){
         
     .inputs{
-        padding-left: 5%;
+        padding-left: 10%;
 
     }
 
     .userpass{
-        padding-left: 2%;
+        padding-left: 3%;
     }
     
 
@@ -545,12 +545,12 @@ i{
 @media(max-width:400px){
         
     .inputs{
-        padding-left: 6%;
+        padding-left: 11%;
 
     }
 
     .userpass{
-        padding-left: 2%;
+        padding-left: 5%;
     }
     
 
@@ -572,12 +572,12 @@ i{
 @media(max-width:350px){
         
     .inputs{
-        padding-left: 2%;
+        padding-left: 7%;
 
     }
 
     .userpass{
-        padding-left: 2%;
+        padding-left: 5%;
     }
     
 
