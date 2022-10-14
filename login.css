@@ -490,7 +490,7 @@ i{
 @media(max-width:500px){
         
     .inputs{
-        padding-left: 10%;
+        padding-left: 5%;
 
     }
 
@@ -503,7 +503,7 @@ i{
     .form{
         background-position: 60%;
         background-size: 211%;
-        padding-top: 29%;
+        padding-top: 50%;
         padding-left: 19%;
     }
 
@@ -518,7 +518,7 @@ i{
 @media(max-width:450px){
         
     .inputs{
-        padding-left: 8%;
+        padding-left: 3%;
 
     }
 
@@ -531,7 +531,7 @@ i{
     .form{
         background-position: 60%;
         background-size: 237%;
-        padding-top: 33%;
+        padding-top: 53%;
         padding-left: 15%;
     }
 
@@ -545,7 +545,7 @@ i{
 @media(max-width:400px){
         
     .inputs{
-        padding-left: 9%;
+        padding-left: 4%;
 
     }
 
@@ -558,7 +558,7 @@ i{
     .form{
         background-position: 60%;
         background-size: 272%;
-        padding-top: 38%;
+        padding-top: 58%;
         padding-left: 10%;
     }
 
@@ -572,7 +572,7 @@ i{
 @media(max-width:350px){
         
     .inputs{
-        padding-left: 3%;
+        padding-left: 0%;
 
     }
 
@@ -585,7 +585,7 @@ i{
     .form{
         background-position: 60%;
         background-size: 318%;
-        padding-top: 45%;
+        padding-top: 65%;
         padding-left: 10%;
     }
 
