@@ -357,14 +357,14 @@ i{
     .email input{
         font-size:medium;
         height: 40px;
-        width: 120%;
+        width: 100%;
         padding-top: 10px;
     }
     
     .password input{
         font-size:medium;
         height: 40px;
-        width: 120%;
+        width: 100%;
         padding-top: 10px;
     }
 
