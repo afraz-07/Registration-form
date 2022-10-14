@@ -26,10 +26,11 @@ body{
     height: 400px;
     width: 60%;
     padding-top: 2%;
+    
 }
 
 ::placeholder{
-    color: white;
+    color: rgb(136, 135, 135);
     font-size: large;
 }
 
@@ -54,20 +55,25 @@ i{
     justify-content:start;
     padding-bottom: 15px;
     padding-top: 15px;
-    padding-left: 25%;
+    /* padding-left: 25%; */
+}
+
+.inputs{
+   padding-left: 23%;
 }
 
 .pass{
     display: flex;
     justify-content:start;
-    padding-left: 25%;
+    /* padding-left: 25%; */
     padding-bottom: 15px;
 }
 
 .sf{
     display: flex;
-    justify-content: center;
-    gap:10%;
+    justify-content: start;
+    gap:36px;
+    padding-left: 5px;
     
 
 }
@@ -118,7 +124,7 @@ i{
     padding-top: 2px ;
     border-radius: 8px;
     color: white;
-    font-weight: normal;
+    font-weight: lighter;
     background-color: transparent;
     transition: background-color 0.8s, color 0.8s;
     transition-timing-function: ease;
@@ -155,9 +161,10 @@ i{
 }
 
 .Create a{
-    color: white;
+    color: rgb(59, 124, 221);
     text-decoration: none;
     font-size: large;
+    font-weight: 600;
   
     
 }
@@ -166,5 +173,429 @@ i{
     background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
     height: 40px;
     padding-top: 10px;
+    color: white;
 
 }
+
+
+/* RESPONSIVE */
+
+
+@media(max-width:1200px){
+    .inputs{
+        padding-left: 20%;
+    }
+
+    .login-btn{
+        padding-top: 7%;
+        padding-bottom: 5%;
+    }
+}
+
+
+@media(max-width:1100px){
+    .inputs{
+        padding-left: 19%;
+    }
+
+    .login-btn{
+        padding-top: 8%;
+        padding-bottom: 6%;
+    }
+
+    .form{
+        background-image: url(/1951962.png);
+        background-size: 100%;
+        background-attachment: fixed;
+        width: 100%;
+        padding-left: 30%;
+        padding-top: 9%;
+    }
+}
+
+@media(max-width:1000px){
+    .inputs{
+        padding-left: 14%;
+    }
+
+    .login-btn{
+        padding-top: 9%;
+        padding-bottom: 7%;
+    }
+
+    .form{
+        background-size: 101%;
+    }
+}
+
+@media(max-width:950px){
+    .inputs{
+        padding-left: 11%;
+    }
+
+    .form{
+        background-size: 106%;
+    }
+}
+
+@media(max-width:900px){
+    .background{
+        height: 385px;
+    }
+
+    .form{
+        background-size: 112%;
+    }
+
+    .inputs{
+        padding-left: 9%;
+    }
+
+    .login-btn button{
+        height: 35px;
+        width: 25%;
+    }
+}
+
+@media(max-width:850px){
+    .background{
+        height: 380px;
+        
+    }
+
+    .form{
+        background-size: 119%;
+        padding-top: 16%;
+    }
+
+    .inputs{
+        padding-left: 7%;
+    }
+
+    .login-btn button{
+        height: 35px;
+        width: 25%;
+    }
+}
+
+@media(max-width:800px){
+    .background{
+        height: 375px;
+        
+    }
+
+    .form{
+        background-size: 127%;
+        padding-top: 17%;
+    }
+
+    .inputs{
+        padding-left: 4%;
+    }
+
+    .login-btn button{
+        height: 35px;
+        width: 25%;
+    }
+}
+
+@media(max-width:750px){
+    .background{
+        height: 370px;
+        
+    }
+
+    .form{
+        background-position: 60%;
+        background-size: 140%;
+        padding-top: 18%;
+    }
+
+    .inputs{
+        padding-left: 8%;
+    }
+    
+    .userpass{
+        padding-left: 6%;
+    }
+
+    .login-btn button{
+        height: 35px;
+        width: 25%;
+    }
+    .icon2 i{
+        font-size: 15px;
+        padding-top: 15px;
+        padding-right: 11px;
+        padding-left: 3px;
+    }
+    
+    
+    .icon3 i{
+        font-size: 15px;
+        padding-top: 16px;
+        padding-right: 12px;
+        padding-left: 6px;
+    }
+
+    .show input{
+        height: 11px;
+        width: 11px;
+    }
+
+    .show{
+        padding-left: 1px;
+        font-size: small;
+    }
+
+    .forgot{
+        font-size: small;
+    }
+    
+    
+    .email input{
+        font-size:medium;
+        height: 40px;
+        width: 120%;
+        padding-top: 10px;
+    }
+    
+    .password input{
+        font-size:medium;
+        height: 40px;
+        width: 120%;
+        padding-top: 10px;
+    }
+
+    ::placeholder{
+        font-size: medium;
+    }
+
+}
+
+@media(max-width:700px){
+    .background{
+        height: 365px;
+        
+    }
+
+    .form{
+        background-position: 60%;
+        background-size: 147%;
+        padding-top: 18%;
+    }
+
+    .inputs{
+        padding-left: 5%;
+    }
+    
+    .userpass{
+        padding-left: 6%;
+    }
+
+    .login-btn button{
+        height: 35px;
+        width: 30%;
+        font-size: medium;
+    }
+
+    .Create{
+        font-size: 14px;
+        padding-top: 13px;
+    }
+
+    .Create a{
+        font-size: 14px;
+    }
+}
+
+@media(max-width:650px){
+    .background{
+        height: 362px;
+        
+        
+    }
+
+    .form{
+        background-position: 60%;
+        background-size: 159%;
+        padding-top: 22%;
+    }
+
+    .inputs{
+        padding-left: 1%;
+    }
+
+}
+@media(max-width:600px){
+    .sf{
+        display: flex;
+        justify-content: start;
+        gap:22px;
+        padding-left: 5px;
+        
+    
+    }
+
+    .form{
+        background-position: 60%;
+        background-size: 173%;
+        padding-top: 23%;
+        padding-left: 19%;
+    }
+
+
+    
+    .inputs{
+        padding-left: 18%;
+
+    }
+
+    .userpass{
+        padding-left: 2%;
+    }
+
+    .background{
+        height: 380px;
+        width: 80%;
+        
+    }
+}
+
+
+@media(max-width:550px){
+        
+    .inputs{
+        padding-left: 15%;
+
+    }
+    
+
+    
+    .form{
+        background-position: 60%;
+        background-size: 190%;
+        padding-top: 23%;
+        padding-left: 19%;
+    }
+
+    .background{
+        height: 370px;
+        width: 80%;
+        
+    }
+}
+
+@media(max-width:500px){
+        
+    .inputs{
+        padding-left: 10%;
+
+    }
+
+    .userpass{
+        padding-left: 4%;
+    }
+    
+
+    
+    .form{
+        background-position: 60%;
+        background-size: 211%;
+        padding-top: 29%;
+        padding-left: 19%;
+    }
+
+    .background{
+        height: 367px;
+        width: 80%;
+        
+    }
+}
+
+
+@media(max-width:450px){
+        
+    .inputs{
+        padding-left: 8%;
+
+    }
+
+    .userpass{
+        padding-left: 4%;
+    }
+    
+
+    
+    .form{
+        background-position: 60%;
+        background-size: 237%;
+        padding-top: 33%;
+        padding-left: 15%;
+    }
+
+    .background{
+        height: 360px;
+        width: 85%;
+        
+    }
+}
+
+@media(max-width:400px){
+        
+    .inputs{
+        padding-left: 9%;
+
+    }
+
+    .userpass{
+        padding-left: 4%;
+    }
+    
+
+    
+    .form{
+        background-position: 60%;
+        background-size: 272%;
+        padding-top: 38%;
+        padding-left: 10%;
+    }
+
+    .background{
+        height: 360px;
+        width: 90%;
+        
+    }
+}
+
+@media(max-width:350px){
+        
+    .inputs{
+        padding-left: 3%;
+
+    }
+
+    .userpass{
+        padding-left: 4%;
+    }
+    
+
+    
+    .form{
+        background-position: 60%;
+        background-size: 318%;
+        padding-top: 45%;
+        padding-left: 10%;
+    }
+
+    .background{
+        height: 358px;
+        width: 90%;
+        
+    }
+}
+
+
+
+
+
